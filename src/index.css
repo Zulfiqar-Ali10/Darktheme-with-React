@@ -1,0 +1,40 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}.btnDark{
+  height: 40px;
+  width: 150px;
+  border: 1px solid #666;
+  background-color: black;
+  color: white;
+  margin: 20px;
+  font-size: 1rem;
+  font-family: "Montserrat";
+}
+.btnLight{
+  height: 40px;
+  width: 150px;
+  border: 1px solid #000;
+  background-color: #fff;
+  color: #000;
+  margin: 20px;
+  font-size: 1rem;
+  font-family: "Montserrat";
+}
+
+.dark{
+  margin: 0;
+  padding: 73px;
+  background-color: black;
+  color: white;
+}
+.light{
+  padding: 73px;
+  background-color: white;
+  color: black;
+}
+
+header, .section, .banner, footer{
+  text-align: center;
+}
